@@ -32,4 +32,11 @@
     (global-set-key (kbd "s-Z") 'undo-tree-redo)
     (global-set-key (kbd "C-s-f") 'spacemacs/toggle-frame-fullscreen)
     ;; Emacs sometimes registers C-s-f as this weird keycode
-    (global-set-key (kbd "<C-s-268632070>") 'spacemacs/toggle-frame-fullscreen)))
+    (global-set-key (kbd "<C-s-268632070>") 'spacemacs/toggle-frame-fullscreen)
+    (global-set-key (kbd "s-o") 'find-file)
+    (global-set-key (kbd "s-l") 'goto-line)
+    (global-set-key (kbd "s-<left>") 'beginning-of-line)
+    (global-set-key (kbd "s-<right>") 'end-of-line)
+    (global-set-key (kbd "s-<up>") 'beginning-of-buffer)
+    (global-set-key (kbd "s-<down>") 'end-of-buffer))
+  )
